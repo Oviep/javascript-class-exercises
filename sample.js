@@ -22,7 +22,7 @@
 // let check = checkNumbers(x, y);
 // console.log(check)
 
-2.
+//2.
 // let a = parseInt( prompt("Please enter number"));
 // let b = parseInt( prompt("Please enter number")); 
 
@@ -80,16 +80,20 @@
 
 // console.log(addWithSubcharge(amount1, amount2))
 
-6.
+// 6.
 
-function rotate() {
-    let ary = [1, 2, 3];
-    let shift = ary.pop();
-    ary.unshift(shift);
-    return ary;
+// function rotateLeft() {
+//     let ary = [1, 2, 3];
+//     let shift = ary.shift();
+//     ary.push(shift);
+//     return ary;
     
-}
+// }
 
-console.log(rotate());
+// console.log(rotateLeft());
+
+//.7
+
+
 
 

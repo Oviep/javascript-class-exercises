@@ -22,7 +22,7 @@
 // let check = checkNumbers(x, y);
 // console.log(check)
 
-//2.
+2.
 // let a = parseInt( prompt("Please enter number"));
 // let b = parseInt( prompt("Please enter number")); 
 
@@ -54,14 +54,42 @@
 
 //4.
 
-function toArray(c, d) {
-    let array = [];
-     array.push(c, d);
-     return array;
-}
+// function toArray(c, d) {
+//     let array = [];
+//      array.push(c, d);
+//      return array;
+// }
 
-console.log(toArray(1,2));
+// console.log(toArray(1,2));
 
 //5.
+// let amount1 = parseInt( prompt("Please enter amount1"));
+// let amount2 = parseInt( prompt("Please enter amount2")); 
+
+// function addWithSubcharge(a, b) {
+//     let subcharge = amount1 + amount2
+
+//     if(amount1 && amount2 <= 10) {
+//         subcharge +=1
+//     } else {
+//         subcharge += 2;
+//     }
+//     return subcharge;
+
+// }
+
+// console.log(addWithSubcharge(amount1, amount2))
+
+6.
+
+function rotate() {
+    let ary = [1, 2, 3];
+    let shift = ary.pop();
+    ary.unshift(shift);
+    return ary;
+    
+}
+
+console.log(rotate());
 
 
